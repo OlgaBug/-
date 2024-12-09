@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" type="image/png" href="Логотип.jpg">
+    <link rel="stylesheet" href="maincssКурсач.css"></linkrel>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <img id="hei" src="Логотип.jpg" width="110" height="110">
+            <h1 id="hen">Садовник вампира</h1>
+            <nav class="menulink">
+                <ul>
+                    <a class="link" href="merchКурсач.html">Магазин</a>
+                    <a class="link" href="demoКурсач.html">Скачать демку</a>
+                    <a class="link" href="galleryКурсач.html">Лор</a>
+                    <a class="link" href="vacancyКурсач.html">Заявка в разработчики</a>
+                </ul> 
+            </nav>
+        </div>
+        <div class="menu2">
+            <div>
+                <img id="hei" src="Логотип.jpg" width="110" height="110">
+                <h1 id="hen">Садовник вампира</h1>
+            </div>
+            <div>
+                <nav >
+                    <ul>
+                        <li><a class="link" href="merchКурсач.html">Магазин</a></li>
+                        <li><a class="link" href="demoКурсач.html">Скачать демку</a></li>
+                        <li><a class="link" href="galleryКурсач.html">Лор</a></li>
+                        <li><a class="link" href="vacancyКурсач.html">Заявка в разработчики</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <!--
+    <span class="tg">
+        <img src="Для тг.png" width="30%" height="30%">
+    </span>
+    <span class="colo">
+        <p class="notification-counter" id="notificationCounter">0</p>
+        <div id="notificationList"></div>
+        <button onclick="pauseNotifications()" class="colocol"> &#128276;
+        </button>
+        <ul class="colocols">
+            <li><a class="link" href="/creators">Создатели</a></li>
+            <li><a class="link" href="/lore">Скачать демку</a></li>
+            <li><a class="link" href="/lore">Лор</a></li>
+        </ul>
+    </span>
+    -->
+    
+    <section id="main_sec">
+        <div class="main_img">
+            <div class="main_text">
+                <img src="Название2.png" width="100%" height="100%"/>
+                <p>Главный герой ухаживает за растениями в саду в вампирском поместье, 
+                    пытаясь выкрасть ценную статуэтку, для чего ему нужно углубляться в исследовании сада и 
+                    налаживать отношения с обитателями поместья.</p>
+            </div>
+            <div class="main_img_img">
+                <img src="ФонГлавный.jpg" width="100%" height="100%"/>
+            </div>
+        </div>
+    </section>
+    
+    <div class="news">
+        <h2 id="h2new">НОВОСТИ РАЗРАБОТКИ</h2>
+        <div class="newsloldiv">
+            <ol class="newslol">
+                <li id="newlol1">
+                    <span>
+                        <div>
+                            <img src="ФонГлавный.jpg"/>
+                            <h3 id="newsp">17 августа 2024</h3>
+                            <p id="newlol">От основателя проекта, Оли</p>
+                            <p id="newlol">Концепты рабочих инструментов садовника, хотела передать через них историю. Идея в том что инструменты сделаны из оружия, показывая что раньше вампиры были полностью вовлечены в битвы</p>
+                        </div>
+                    </span>
+                </li>
+                <li id="newlol2">
+                    <span>
+                        <div>
+                            <img src="ФонГлавный.jpg"/>
+                            <h3 id="newsp">26 июня 2024</h3>
+                            <p id="newlol">От основателя проекта, Оли</p>
+                            <p id="newlol">Как и обещала, выпускаю пост с тем, как сейчас выглядит диалоговая система с первым нпс, который даст вводную информацию. Сейчас меня пугает количество текста, та как понятно, что люди не любят много читать, особенно в самом начале игры, и надо как-то балансировать с подачей нужной информацией и тем, что бы текст не был нудным. В карусели вы можете увидеть, что нпс отвечает на первый вопрос, а если прокрутить дальше, увидите, как сейчас выглядит дерево ответов</p>
+                        </div>
+                    </span>
+                </li>
+                <li id="newlol3">
+                    <span>
+                        <div>
+                            <img src="ФонГлавный.jpg"/>
+                        </div>
+                    </span>
+                </li>
+            </ol>
+        </div>
+        
+    </div>
+    <div id="butnews">
+        <button onclick="batleft()"><p><-</p></button>
+        <button onclick="batrait()"><p>-></p></button>
+    </div>
+    
+    
+    
+    <div class="chers">
+        <h2 id="h3">Персонажи</h2>
+        <section>
+            <section class="chers1">
+                <img class="cart" src="PlayerDialog.png" width="150" height="150">
+                <p style="width: 70% ;height: 100%;">Будучи вором, он никогда не имел опыта ухода за садом, 
+            что нарративно позволяет вводить игрока в принципы работы игровых механик через восприятие протагониста. 
+            Прошлое персонажа не играет существенной роли в сюжете, что позволяет играть им, без учёта его психологических особенностей, 
+            как «чистым листом», т.е. самостоятельно формировать принципы поведения в заданных границах. Основной мотивацией 
+            к действию для протагониста является желание выжить.
+                </p>
+            </section>
+            <section class="chers1">
+                <img class="cart" src="КонцептГрафа.jpg" width="150" height="150">
+                <p style="width: 70% ;height: 100%;">Граф бывший военный, офицер и дворянин, мастер меча, потерявший былые боевой пыл и азарт после гибели на войне своей жены. В виду скорби о ней, он оберегает любимый ею сад. Неконфликтен, однако может в критической ситуации прибегнуть к насилию. Скован в движениях из-за ранения в былых битвах. Людей недолюбливает, но так как является пацифистом, и не поддерживает расовые распри, старается ко всем относиться одинаково.
+                </p>
+            </section>
+            <section class="chers1">
+                <img class="cart" src="OrcDiaalog.png" width="150" height="150">
+                <p  style="width: 70% ;height: 100%;">Конюх Один из работников графа, имеет телепатия 
+            (передавать информацию силой мысли), позитивный, любит сплетничать и много болтать. 
+            Доброжелательно относится к протагонисту.</p>
+            </section>
+        </section>
+    </div>
+    </p>
+    <footer class="wr">
+        <div class="wrapper">
+            <a href="#"><span>VK</span></a>
+        </div>
+        <address>
+            <a href="tel:88005553535">Позвонить по номеру</a><br>
+            <a href="mailto:sendemail@gmail.com">Написать письмо</a><br>
+        </address>
+    </footer>
+    <script src='mainКурсач.js'></script>
+</body>
+</html>

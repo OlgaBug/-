@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" type="image/png" href="Логотип.jpg">
+    <link rel="stylesheet" href="cssmerchКурсач.css"></linkrel>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img id="hei" src="Логотип.jpg" width="110" height="110">
+        <h1 id="hen">Садовник вампира</h1>
+        <nav class="menu">
+            <ul>
+                <a class="link" href="merchКурсач.html">Магазин</a>
+                <a class="link" href="demoКурсач.html">Скачать демку</a>
+                <a class="link" href="galleryКурсач.html">Лор</a>
+                <a class="link" href="vacancyКурсач.html">Заявка в разработчики</a>
+            </ul> 
+        </nav>
+            <label for="pseudoBtn" class="btn"><img src="Логотип.jpg" width="30" height="30"></label>
+            <input type="checkbox" id="pseudoBtn">
+            <nav class="menu2">
+                <ul>
+                    <li><a class="link" href="merchКурсач.html">Магазин</a></li>
+                    <li><a class="link" href="demoКурсач.html">Скачать демку</a></li>
+                    <li><a class="link" href="galleryКурсач.html">Лор</a></li>
+                    <li><a class="link" href="vacancyКурсач.html">Заявка в разработчики</a></li>
+                </ul>
+            </nav>
+    </header>
+    <script src='merchКурсач.js'></script>
+    <h1>Магазин</h1>
+    <div id="mag">
+        <div class="tav">
+            <div class="imgdiv">
+                <img class="imgglr" src="ГГ.png">
+                </div>
+            <p>Млад - главный герой</p>
+            <p>Шарнирная кукла</p>
+            <button onclick="addcart(0)">Купить</button>
+        </div>
+        <div class="tav">
+            <div class="imgdiv">
+                <img class="imgglr" src="Граф.png">
+            </div>
+            <p>Рейган - Граф поместья</p>
+            <p>Шарнирная кукла</p>
+            <button onclick="addcart(1)">Купить</button>
+        </div>
+        <div class="tav">
+            <div class="imgdiv">
+                <img class="imgglr" src="Змея.png">
+            </div>
+            <p>Серпента - торговка</p>
+            <p>Шарнирная кукла</p>
+            <button onclick="addcart(2)">Купить</button>
+        </div>
+    </div>
+    <div id="bag">
+        <h1>Корзина</h1>
+        <!-- Фильтрация товаров -->
+        <section>
+            <h4>Фильтрация товаров</h4>
+            <label for="min">Минимальная цена: </label>
+            <input type="number" id="min" value="0">
+            <label for="max">Максимальная цена: </label>
+            <input type="number" id="max" value="1000">
+            <button onclick="filterItems()">Применить фильтр</button>
+            <div id="filtered-items"></div>
+        </section>
+
+        <!-- Сортировка товаров -->
+        <section>
+            <h4>Сортировка товаров</h4>
+            <button onclick="sortItems('asc')">Сортировать по возрастанию</button>
+            <button onclick="sortItems('desc')">Сортировать по убыванию</button>
+            <div id="sorted-items"></div>
+        </section>
+
+
+        <div id="cartItems"></div>
+        <p>Общая стоимость: <span id="total-price">0</span> руб.</p>
+    </div>
+    
+    
+</body>

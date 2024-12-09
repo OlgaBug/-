@@ -1,0 +1,215 @@
+.menu2 {
+    display: none;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1031;
+    margin: 0;
+    background-color: #252423;
+    color: #e8d6d6;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    top: 0;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    background-size: cover;
+    background-position: top center;
+
+}
+.menu {
+    left: 0;
+    position: sticky;
+    right: 0;
+    top: 0;
+    z-index: 1031;
+    margin: 0;
+    background-color: #252423;
+    color: #e8d6d6;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    top: 0;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    background-size: cover;
+    background-position: top center;
+}
+@media (max-width: 853px){
+    .menulink {
+        display: none;
+    }
+    .menu2 {
+        display: block;
+    }
+}
+
+.textv2 {
+    text-align: center;
+      display: flex;
+      flex: 1 1 0%;
+      flex-direction: column;
+      -webkit-box-pack: end;
+      justify-content: end;
+      -webkit-box-align: center;
+      align-items: center;
+      padding: 0 0 20px;
+  }
+  .textv2 h1 {
+    text-wrap: balance;
+    word-break: break-word;
+    font-family: "Beaufort for LOL", sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 64px;
+    line-height: 72px;
+    padding-bottom: 10px;
+    margin-top: 0;
+  }
+
+.textv {
+    text-align: center;
+      display: flex;
+      flex: 1 1 0%;
+      flex-direction: column;
+      -webkit-box-pack: end;
+      justify-content: end;
+      -webkit-box-align: center;
+      align-items: center;
+      padding: 50px 0 50px;
+  }
+  .textv h1 {
+    text-wrap: balance;
+    word-break: break-word;
+    font-family: "Beaufort for LOL", sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 64px;
+    line-height: 72px;
+    padding-bottom: 10px;
+    margin: 0;
+  }
+  .textv p {
+      font-weight: 400;
+      word-break: break-word;
+      font-size: 22px;
+      line-height: 32px;
+  }
+  
+  #text3 {
+    width: 784px;
+  }
+  @media (max-width: 600px) {
+    #text3 {
+        font-size: 14px;
+        line-height: 22px;
+    }
+  }
+  @media (min-width: 1025px) {
+    .textv h1 {
+        font-weight: 900;
+    }
+  }
+  @media (max-width: 1024px) {
+    #text3 {
+        width: 100%;
+    }
+  }
+
+#allb {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "tabs media";
+    align-items: flex-start;
+    gap: 12px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    z-index: 2;
+    position: relative;
+}
+@media (max-width: 1024px) {
+    #allb {
+        grid-template:
+        "tabs"
+        "media" / 100%;
+    }
+}
+
+#СапогиГрафа {
+    background-image: url("Слой 12.png");
+    position: absolute;
+    left: 122px;
+    top: 543px;
+    width: 166px;
+    height: 207px;
+    z-index: 9;
+}
+
+#ШтаныГрафа {
+    background-image: url("Слой 13.png");
+    position: absolute;
+    left: 105px;
+    top: 314px;
+    width: 226px;
+    height: 370px;
+    z-index: 8;
+}
+  
+#КофтаГрафа {
+    background-image: url("Слой 14.png");
+    position: absolute;
+    left: 67px;
+    top: 139px;
+    width: 332px;
+    height: 256px;
+    z-index: 9;
+  }
+
+#СапогиГГ {
+    background-image: url("Слой 9.png");
+    position: absolute;
+    left: 110px;
+    top: 608px;
+    width: 200px;
+    height: 143px;
+    z-index: 9;
+}
+
+#ШтаныГГ {
+    background-image: url("Слой 10.png");
+    position: absolute;
+    left: 104px;
+    top: 304px;
+    width: 237px;
+    height: 360px;
+    z-index: 8;
+  }
+  
+#КофтаГГ {
+    background-image: url("Слой 11.png");
+    position: absolute;
+    left: 110px;
+    top: 174px;
+    width: 183px;
+    height: 212px;
+    z-index: 9;
+}
+  
+#doll {
+    background-image: url("Кукла.jpg");
+    position: relative;
+    width: 400px;
+    height: 750px;
+    z-index: 2;
+}
+.buttonod {
+    width: 180px;
+    height: 180px;
+}
+

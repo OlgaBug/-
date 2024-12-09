@@ -1,0 +1,94 @@
+@media screen and (min-width: 853px){
+    .btn {
+        visibility: hidden;
+        
+}
+}
+.menu2,
+input[type="checkbox"] {
+    display: none;
+}
+input[type="checkbox"]:checked ~ .menu2 {
+    display: block;
+    flex-direction: column;
+}
+
+.btn:active{
+    transform: rotate(90deg);
+}
+
+.btn {
+    display: flex;
+    position: absolute;
+    right: 10px;
+    margin-bottom: 4px;
+    background-color: #ffffff;
+    border: 1px solid #eeeeee;
+    cursor: pointer;
+}
+@media (max-width: 853px){
+    .menu {
+        visibility: hidden;
+    }
+}
+
+body{
+    margin:0;
+    }
+header {
+    margin: 0;
+    background-color: #252423;
+    position: sticky;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    color: #e8d6d6;
+    top: 0;
+    z-index: 4;
+    flex-wrap: wrap;
+    width: 100%;
+    background-size: cover;
+    background-position: top center;
+}
+
+#mag {
+display: grid;
+  grid-template-columns: repeat(3, minmax(0px, 1fr));
+  gap: 24px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+@media (max-width: 1024px) {
+    #mag {
+        grid-template-columns: repeat(2, minmax(0px, 1fr));
+    }
+  }
+@media (max-width: 600px) {
+  #mag {
+      grid-template-columns: repeat(1, minmax(0px, 1fr));
+  }
+}
+.imgglr {
+    height: 50%;
+    width: 50%;
+    justify-self: center;
+}
+
+.imgdiv {
+    margin: 0px auto;
+    position: relative;
+}
+
+.tav {
+    justify-self: center;
+}
+#bag {
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.imgbag {
+    height: 10%;
+    width: 10%;
+    justify-self: center;
+}

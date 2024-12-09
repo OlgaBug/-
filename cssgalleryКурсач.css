@@ -1,0 +1,167 @@
+@media screen and (min-width: 853px){
+  .btn {
+      visibility: hidden;
+      
+}
+}
+.menu2,
+input[type="checkbox"] {
+  display: none;
+}
+input[type="checkbox"]:checked ~ .menu2 {
+  display: block;
+  flex-direction: column;
+}
+
+.btn:active{
+  transform: rotate(90deg);
+}
+
+.btn {
+  display: flex;
+  position: absolute;
+  right: 10px;
+  margin-bottom: 4px;
+  background-color: #ffffff;
+  border: 1px solid #eeeeee;
+  cursor: pointer;
+}
+@media (max-width: 853px){
+  .menu {
+      visibility: hidden;
+  }
+}
+
+
+
+
+body{
+  margin:0;
+  background-color: #e7e6e3;
+  }
+header {
+  margin: 0;
+  background-color: #252423;
+  position: sticky;
+  color: #e8d6d6;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  top: 0;
+  z-index: 4;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  background-size: cover;
+  background-position: top center;
+}
+
+.textv {
+  text-align: center;
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: column;
+    -webkit-box-pack: end;
+    justify-content: end;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 128px 0 128px;
+}
+.textv h1 {
+  text-wrap: balance;
+  word-break: break-word;
+  font-family: "Beaufort for LOL", sans-serif;
+  font-style: italic;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 64px;
+  line-height: 72px;
+  padding-bottom: 16px;
+}
+.textv p {
+    font-weight: 400;
+    word-break: break-word;
+    font-size: 22px;
+    line-height: 32px;
+}
+
+#text3 {
+  width: 784px;
+}
+@media (max-width: 600px) {
+  #text3 {
+      font-size: 14px;
+      line-height: 22px;
+  }
+}
+@media (min-width: 1025px) {
+  .textv h1 {
+      font-weight: 900;
+  }
+}
+@media (max-width: 1024px) {
+  #text3 {
+      width: 100%;
+  }
+}
+#galarall {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0px, 1fr));
+  gap: 24px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+#galarall a {
+  margin: 0px;
+  background-color: rgb(10, 20, 40);
+}
+@media (max-width: 1024px) {
+  #galarall {
+      grid-template-columns: repeat(2, minmax(0px, 1fr));
+  }
+}
+
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.imgglr {
+  height: 100%;
+  
+}
+
+.imgdiv {
+  margin: 0px auto;
+  position: relative;
+}
+.imgdiv img{
+  height: 100%;
+  width: 100%;
+}
+
+.textglr {
+  margin-top: -1px;
+    background-color: rgb(10, 20, 40);
+    color: rgb(255, 255, 255);
+    word-break: break-word;
+    font-family: "Beaufort for LOL", sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 700;
+    padding: 16px;
+    overflow: hidden;
+    white-space: normal;
+    text-wrap: balance;
+}
+
+@media (max-width: 1024px) {
+  .textglr {
+      font-size: 16px;
+      line-height: 24px;
+  }
+}

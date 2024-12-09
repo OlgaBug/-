@@ -1,0 +1,123 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
+  <diagram name="Страница — 1" id="brb0yX7rdHHqOFLEQjut">
+    <mxGraphModel dx="1290" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AYspyRgMMPXXdntxx2pI-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="565" y="190" width="440" height="475" as="geometry" />
+        </mxCell>
+        <mxCell id="AYspyRgMMPXXdntxx2pI-10" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="650" y="250" width="270" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="AYspyRgMMPXXdntxx2pI-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="190" width="450" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="AYspyRgMMPXXdntxx2pI-3" value="JavaScript" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="235" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AYspyRgMMPXXdntxx2pI-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AYspyRgMMPXXdntxx2pI-6" target="AYspyRgMMPXXdntxx2pI-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AYspyRgMMPXXdntxx2pI-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AYspyRgMMPXXdntxx2pI-6" target="AYspyRgMMPXXdntxx2pI-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="165" y="400" />
+              <mxPoint x="735" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AYspyRgMMPXXdntxx2pI-6" value="Проверка на размер экрана. В зависимости от экрана вызывается соответствующие функции" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="95" y="240" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="AYspyRgMMPXXdntxx2pI-7" value="Изменение видимости блокова" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="742.5" y="322.5" width="85" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="AYspyRgMMPXXdntxx2pI-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="AYspyRgMMPXXdntxx2pI-8" target="AYspyRgMMPXXdntxx2pI-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AYspyRgMMPXXdntxx2pI-8" value="В зависимости того, на каком блоке был пользователь, показываются соответствующие блоки у урезанном или на оборот увеличенном количестве" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="210" width="170" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="AYspyRgMMPXXdntxx2pI-12" value="CSS" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="755" y="220" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AYspyRgMMPXXdntxx2pI-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="AYspyRgMMPXXdntxx2pI-13" target="AYspyRgMMPXXdntxx2pI-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AYspyRgMMPXXdntxx2pI-13" value="Появляются кнопки" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="735" y="420" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AYspyRgMMPXXdntxx2pI-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="AYspyRgMMPXXdntxx2pI-16" target="AYspyRgMMPXXdntxx2pI-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AYspyRgMMPXXdntxx2pI-16" value="Нажатие на кнопки в право на лево" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="727.5" y="560" width="115" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AYspyRgMMPXXdntxx2pI-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AYspyRgMMPXXdntxx2pI-18" target="AYspyRgMMPXXdntxx2pI-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AYspyRgMMPXXdntxx2pI-18" value="изменение блоков от нажатия кнопок" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="430" width="135" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AYspyRgMMPXXdntxx2pI-23" value="HTML" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="755" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AYspyRgMMPXXdntxx2pI-24" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="565" y="770" width="440" height="475" as="geometry" />
+        </mxCell>
+        <mxCell id="AYspyRgMMPXXdntxx2pI-25" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="685" y="900" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="AYspyRgMMPXXdntxx2pI-26" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="770" width="450" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="AYspyRgMMPXXdntxx2pI-27" value="JavaScript" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="235" y="740" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AYspyRgMMPXXdntxx2pI-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AYspyRgMMPXXdntxx2pI-30" target="AYspyRgMMPXXdntxx2pI-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AYspyRgMMPXXdntxx2pI-30" value="Появление одежды при загрузки страницы" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="95" y="785" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="AYspyRgMMPXXdntxx2pI-31" value="Добавляются картинки одежды" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="742.5" y="807.5" width="85" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="AYspyRgMMPXXdntxx2pI-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="AYspyRgMMPXXdntxx2pI-33" target="AYspyRgMMPXXdntxx2pI-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AYspyRgMMPXXdntxx2pI-33" value="Очищается и заполняется блок с картинками одежда" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="790" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="AYspyRgMMPXXdntxx2pI-34" value="CSS" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="755" y="870" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AYspyRgMMPXXdntxx2pI-36" value="Стили картинок с одеждой" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="735" y="962.5" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AYspyRgMMPXXdntxx2pI-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="AYspyRgMMPXXdntxx2pI-38" target="AYspyRgMMPXXdntxx2pI-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AYspyRgMMPXXdntxx2pI-38" value="Нажатие на кнопки c одеждой" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="727.5" y="1140" width="115" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AYspyRgMMPXXdntxx2pI-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="AYspyRgMMPXXdntxx2pI-40" target="AYspyRgMMPXXdntxx2pI-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AYspyRgMMPXXdntxx2pI-40" value="добавление одежды в список" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="337.5" y="1012.5" width="135" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AYspyRgMMPXXdntxx2pI-41" value="HTML" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="755" y="740" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AYspyRgMMPXXdntxx2pI-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="AYspyRgMMPXXdntxx2pI-42" target="AYspyRgMMPXXdntxx2pI-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AYspyRgMMPXXdntxx2pI-42" value="удаление старой одежды из списка" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="85" y="1015" width="130" height="55" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

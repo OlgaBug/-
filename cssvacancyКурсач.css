@@ -1,0 +1,224 @@
+.menu2 {
+  display: none;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1031;
+  margin: 0;
+  background-color: #252423;
+  color: #e8d6d6;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  top: 0;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  background-size: cover;
+  background-position: top center;
+
+}
+.menu {
+  left: 0;
+  position: sticky;
+  right: 0;
+  top: 0;
+  z-index: 1031;
+  margin: 0;
+  background-color: #252423;
+  color: #e8d6d6;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  top: 0;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  background-size: cover;
+  background-position: top center;
+}
+@media (max-width: 853px){
+  .menulink {
+      display: none;
+  }
+  .menu2 {
+      display: block;
+  }
+}
+
+
+body{
+  margin:0;
+  background-color: #e7e6e3;
+  }
+header {
+  margin: 0;
+  background-color: #252423;
+  position: sticky;
+  color: #e8d6d6;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  top: 0;
+  z-index: 4;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  background-size: cover;
+  background-position: top center;
+}
+
+.textv {
+  text-align: center;
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: column;
+    -webkit-box-pack: end;
+    justify-content: end;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 50px 0 50px;
+}
+.textv h1 {
+  text-wrap: balance;
+  word-break: break-word;
+  font-family: "Beaufort for LOL", sans-serif;
+  font-style: italic;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 64px;
+  line-height: 72px;
+  padding-bottom: 10px;
+  margin: 0;
+}
+.textv p {
+    font-weight: 400;
+    word-break: break-word;
+    font-size: 22px;
+    line-height: 32px;
+}
+
+#text3 {
+  width: 784px;
+}
+@media (max-width: 600px) {
+  #text3 {
+      font-size: 14px;
+      line-height: 22px;
+  }
+}
+@media (min-width: 1025px) {
+  .textv h1 {
+      font-weight: 900;
+  }
+}
+@media (max-width: 1024px) {
+  #text3 {
+      width: 100%;
+  }
+}
+
+
+#formdivtwo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 710px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+@media screen and (min-width: 550px) {
+  .formdivtwo {
+      padding-left: 40px;
+      padding-right: 40px;
+  }
+}
+
+#formdiv {
+  background-color: #2b2a29;
+  color: #e7e6e3;
+  padding: 40px 20px !important;
+  padding: 40px 20px !important;
+  max-width: none !important;
+}
+input {
+  width: 100%;
+  border: 2px solid #252423;
+  background-color: #e7e6e3;
+  color: #252423 !important;
+  border-radius: 50px;
+  font-size: 16px !important;
+  font-weight: 700;
+  height: 50px;
+  margin-top: 5px !important;
+}
+#file {
+  border: none !important;
+  border-radius: 0 !important;
+}
+#happy {
+  width: 20%;
+  height: 25px;
+}
+#heading {
+  float: none;
+  margin: 0 0 40px;
+  text-align: center;
+}
+
+#jobvac {
+  position: relative;
+  z-index: 1;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 960px) {
+.jobvac {
+  min-height: 550px;
+}
+}
+
+.jobzag {
+  font-size: 1.2rem;
+  font-family: 'Mark Pro', Arial, sans-serif;
+  font-weight: 700;
+}
+
+.jobtex {
+  font-size: 1.2rem;
+  line-height: 1.636;
+  letter-spacing: -.01em;
+  font-family: 'Mark Pro', Arial, sans-serif;
+}
+
+
+  /* Широкие блоки постов
+  .form:nth-child(31n + 1) {
+    grid-column: span 2;
+  }
+  .form:nth-child(16n + 2) {
+    grid-column: 1 / 3;
+  }
+  .form:nth-child(16n + 10) {
+    grid-column: -3 / -1;
+  }
+  */
+  /* Одноколоночное отображение на мобильных */
+  @media (max-width: 768px) {
+    .form-c {
+        width: 90%;
+    }
+
+    form {
+        grid-template-columns: 1fr;
+    }
+
+    textarea, button {
+        grid-column: 1;
+    }
+}
+ 
