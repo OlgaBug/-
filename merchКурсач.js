@@ -1,10 +1,22 @@
 let shop = [
-    {'name': 'Млад', 'price': 500, 'quantity': 1, 'img': "ГГ.png"},
-    {'name': 'Рейган', 'price': 800, 'quantity': 1, 'img': "Граф.png"},
-    {'name': 'Серпента', 'price': 1200, 'quantity': 1, 'img': "Змея.png"}
+    {'name': 'Млад', 'price': 25000, 'quantity': 1, 'img': "ГГ.png"},
+    {'name': 'Рейган', 'price': 27000, 'quantity': 1, 'img': "Граф.png"},
+    {'name': 'Серпента', 'price': 30000, 'quantity': 1, 'img': "Змея.png"}
 ];
 let cart = [
 ];
+const men = document.getElementById("menu2");
+var p = 0;
+function menubutt() {
+    if (p == 0) {
+        men.style.display = 'none';
+        p = 1;
+    }
+    else{
+        men.style.display = 'block';
+        p = 0;
+    }
+}
 function displayCart(cart = cart) {
     const cartItemsD = document.getElementById('cartItems')
     cartItemsD.innerHTML = '';

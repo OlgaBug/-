@@ -1,35 +1,90 @@
-@media screen and (min-width: 853px){
-  .btn {
-      visibility: hidden;
-      
-}
-}
-.menu2,
-input[type="checkbox"] {
+#menu2 {
   display: none;
-}
-input[type="checkbox"]:checked ~ .menu2 {
-  display: block;
-  flex-direction: column;
-}
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1031;
+  margin: 0;
+  background-color: #252423;
+  color: #e8d6d6;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  top: 0;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  background-size: cover;
+  background-position: top center;
 
-.btn:active{
-  transform: rotate(90deg);
 }
-
-.btn {
+.menu {
+  left: 0;
+  position: sticky;
+  right: 0;
+  top: 0;
+  z-index: 1031;
+  margin: 0;
+  background-color: #252423;
+  color: #e8d6d6;
   display: flex;
-  position: absolute;
-  right: 10px;
-  margin-bottom: 4px;
-  background-color: #ffffff;
-  border: 1px solid #eeeeee;
-  cursor: pointer;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  top: 0;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  background-size: cover;
+  background-position: top center;
+}
+#menubut {
+  display: none;
+  border: medium none;
+background-image: none; 
+background: transparent;
+background-color: transparent;
+}
+#menubut p{
+  color: #e8d6d6 ;
+  font-size: 24px;
 }
 @media (max-width: 853px){
-  .menu {
-      visibility: hidden;
+  .menulink {
+      display: none;
   }
+  #menu2 {
+      display: block;
+  }
+  #menubut {
+      display: block;
+  }
+  
+}
+.link {
+  color: #464040;
+}
+.link:hover {
+  color: #ac4d4d;
+}
+.link:active {
+  color: #f20505;
+}
+.link:visited {
+  color: #975151;
+}
+.link2:visited {
+  color: #560404;
+}
+.wr {
+  grid-template-columns: repeat(auto-fit, minmax(500px,1fr));
+  grid-gap: 1px;
+  grid-auto-flow: dense;
+  background-color: #430b0b;
+}
+.wr a{
+  color: #d89898;
 }
 
 
@@ -111,10 +166,6 @@ header {
   gap: 24px;
   padding-left: 32px;
   padding-right: 32px;
-}
-#galarall a {
-  margin: 0px;
-  background-color: rgb(10, 20, 40);
 }
 @media (max-width: 1024px) {
   #galarall {

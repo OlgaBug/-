@@ -1,6 +1,4 @@
 let isDrawing = false;
-let lastDotTime = 0; // Время последнего рисования
-const drawInterval = 100; // Интервал между точками в миллисекундах
 
 const new1 = document.getElementById("newlol1");
 const new2 = document.getElementById("newlol2");
@@ -14,6 +12,7 @@ kolnew = 3;
 newnowt1 = 1;
 newnowt2 = 2;
 newnoww = 1;
+
 console.log(newnowt1)
 window.addEventListener('resize', () => {
     if (document.documentElement.clientWidth < 1025){
@@ -160,6 +159,18 @@ function batleft() {
                 new3.style.display = 'none';
             }
         }
+    }
+}
+const men = document.getElementById("menu2");
+var p = 0;
+function menubutt() {
+    if (p == 0) {
+        men.style.display = 'none';
+        p = 1;
+    }
+    else{
+        men.style.display = 'block';
+        p = 0;
     }
 }
 

@@ -6,6 +6,18 @@ function plys() {
     p +=1;
     itog();
 }
+const men = document.getElementById("menu2");
+var p = 0;
+function menubutt() {
+    if (p == 0) {
+        men.style.display = 'none';
+        p = 1;
+    }
+    else{
+        men.style.display = 'block';
+        p = 0;
+    }
+}
 setTimeout(play, 10 * 1000);
 function play() {
     if (p==4){

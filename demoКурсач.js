@@ -33,7 +33,18 @@ function addcart(inte) {
   cart[cart.length - 1]['inshop'] = inte;
   displayCart(cart);
 }
-
+const men = document.getElementById("menu2");
+var p = 0;
+function menubutt() {
+    if (p == 0) {
+        men.style.display = 'none';
+        p = 1;
+    }
+    else{
+        men.style.display = 'block';
+        p = 0;
+    }
+}
 
 function removeItem(item) {
   var p = 0;

@@ -12,29 +12,44 @@
 </head>
 <body>
     <header>
-        <img id="hei" src="Логотип.jpg" width="110" height="110">
-        <h1 id="hen">Садовник вампира</h1>
-        <nav class="menu">
-            <ul>
-                <a class="link" href="merchКурсач.html">Магазин</a>
-                <a class="link" href="demoКурсач.html">Скачать демку</a>
-                <a class="link" href="galleryКурсач.html">Лор</a>
-                <a class="link" href="vacancyКурсач.html">Заявка в разработчики</a>
-            </ul> 
-        </nav>
-            <label for="pseudoBtn" class="btn"><img src="Логотип.jpg" width="30" height="30"></label>
-            <input type="checkbox" id="pseudoBtn">
-            <nav class="menu2">
+        <div class="menu">
+            <a class="link" href="mainhtmlКурсач.html"> <img id="hei" src="Название2.png" width="20%" height="20%"></a>
+            <nav class="menulink">
                 <ul>
-                    <li><a class="link" href="merchКурсач.html">Магазин</a></li>
-                    <li><a class="link" href="demoКурсач.html">Скачать демку</a></li>
-                    <li><a class="link" href="galleryКурсач.html">Лор</a></li>
-                    <li><a class="link" href="vacancyКурсач.html">Заявка в разработчики</a></li>
-                </ul>
+                    <a class="link" href="merchКурсач.html">Магазин</a>
+                    <a class="link" href="demoКурсач.html">Конструктор</a>
+                    <a class="link" href="galleryКурсач.html">Лор</a>
+                    <a class="link" href="vacancyКурсач.html">Заявка в разработчики</a>
+                </ul> 
             </nav>
+            <button id="menubut" onclick="menubutt()"><p>↓</p></button>
+        </div>
+        <div id="menu2">
+            <div>
+                <a class="link" href="mainhtmlКурсач.html"> <img id="hei" src="Название2.png" width="20%" height="20%"></a>
+                <button id="menubut" onclick="menubutt()"><p>↑</p></button>
+            </div>
+            <div>
+                <nav >
+                    <ul>
+                        <li><a class="link" href="merchКурсач.html">Магазин</a></li>
+                        <li><a class="link" href="demoКурсач.html">Конструктор</a></li>
+                        <li><a class="link" href="galleryКурсач.html">Лор</a></li>
+                        <li><a class="link" href="vacancyКурсач.html">Заявка в разработчики</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
     </header>
     <script src='merchКурсач.js'></script>
-    <h1>Магазин</h1>
+    <span>
+        <section>
+            <div class="textv">
+                <h1>Магазин</h1>
+                <div id="text3"><p>Возьми своего любимого героя в коллекцию, и акунись вместе с ним в мир магии.</p></div>
+            </div>
+        </section>
+    </span>
     <div id="mag">
         <div class="tav">
             <div class="imgdiv">
@@ -42,7 +57,11 @@
                 </div>
             <p>Млад - главный герой</p>
             <p>Шарнирная кукла</p>
-            <button onclick="addcart(0)">Купить</button>
+            <div> 
+                <p>25000p </p>
+                <button onclick="addcart(0)">Купить</button>
+            </div>
+            
         </div>
         <div class="tav">
             <div class="imgdiv">
@@ -50,6 +69,7 @@
             </div>
             <p>Рейган - Граф поместья</p>
             <p>Шарнирная кукла</p>
+            <p>27000p </p>
             <button onclick="addcart(1)">Купить</button>
         </div>
         <div class="tav">
@@ -58,6 +78,7 @@
             </div>
             <p>Серпента - торговка</p>
             <p>Шарнирная кукла</p>
+            <p>30000p </p>
             <button onclick="addcart(2)">Купить</button>
         </div>
     </div>
@@ -87,5 +108,13 @@
         <p>Общая стоимость: <span id="total-price">0</span> руб.</p>
     </div>
     
-    
+    <footer class="wr">
+        <div class="wrapper">
+            <a href="https://vk.com/sadovnicvampira"><span>VK</span></a>
+        </div>
+        <address>
+            <a href="tel:88005553535">Позвонить по номеру</a><br>
+            <a href="mailto:sendemail@gmail.com">Написать письмо</a><br>
+        </address>
+    </footer>
 </body>

@@ -1,4 +1,4 @@
-.menu2 {
+#menu2 {
     display: none;
     left: 0;
     position: fixed;
@@ -33,20 +33,37 @@
     justify-content: flex-start;
     align-items: center;
     top: 0;
-    flex-wrap: wrap;
+    flex-wrap: col;
     align-items: center;
     width: 100%;
     background-size: cover;
     background-position: top center;
 }
+#menubut {
+    display: none;
+    border: medium none;
+	background-image: none; 
+	background: transparent;
+	background-color: transparent;
+}
+#menubut p{
+    color: #e8d6d6 ;
+    font-size: 24px;
+}
 @media (max-width: 853px){
     .menulink {
         display: none;
     }
-    .menu2 {
+    #menu2 {
         display: block;
     }
+    #menubut {
+        display: block;
+    }
+    
 }
+
+
 
 
 .tg {
@@ -445,7 +462,7 @@ h3 ~ p{
 }
 
 .link {
-    color: #000000;
+    color: #464040;
 }
 .link:hover {
     color: #ac4d4d;
@@ -454,7 +471,7 @@ h3 ~ p{
     color: #f20505;
 }
 .link:visited {
-    color: #560404;
+    color: #975151;
 }
 .link2:visited {
     color: #560404;
@@ -545,6 +562,10 @@ p {
     grid-template-columns: repeat(auto-fit, minmax(500px,1fr));
     grid-gap: 1px;
     grid-auto-flow: dense;
+    background-color: #430b0b;
+}
+.wr a{
+    color: #d89898;
 }
 
 #centered-img {
